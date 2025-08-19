@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Productos</title>
+</head>
+<body>
+    <form action="procesar.php" method="POST">
+        <h2>Ingrese los datos de los productos</h2>
+        <!-- Producto 1 -->
+        <label>Nombre Producto 1:</label><br>
+        <input type="text" name="nombre1" required><br><br>
+        <label>Precio Producto 1:</label><br>
+        <input type="number" step="0.01" name="precio1" required><br><br>
+
+        <!-- Producto 2 -->
+        <label>Nombre Producto 2:</label><br>
+        <input type="text" name="nombre2" required><br><br>
+        <label>Precio Producto 2:</label><br>
+        <input type="number" step="0.01" name="precio2" required><br><br>
+
+        <!-- Producto 3 -->
+        <label>Nombre Producto 3:</label><br>
+        <input type="text" name="nombre3" required><br><br>
+        <label>Precio Producto 3:</label><br>
+        <input type="number" step="0.01" name="precio3" required><br><br>
+
+        <input type="submit" value="Calcular Total">
+    </form>
+</body>
+</html>
